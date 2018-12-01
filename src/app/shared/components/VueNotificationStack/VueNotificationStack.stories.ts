@@ -13,7 +13,7 @@ story.add(
     template: `
 <div>
   <vue-notification-stack />
-  <vue-button secondary @click="addNotificationClick">add notification</vue-button>
+  <vue-button variant="secondary" @click="addNotificationClick">add notification</vue-button>
 </div>
 `,
     methods: {

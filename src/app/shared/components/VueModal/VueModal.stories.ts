@@ -16,9 +16,9 @@ story.add(
     },
     template: `
 <div>
-  <vue-button @click="show = true" secondary>Show</vue-button>
+  <vue-button @click="show = true" variant="secondary">Show</vue-button>
   <vue-modal :show="show" @close="show = false">
-    <vue-button primary @click="show = false">Hide</vue-button>
+    <vue-button variant="primary" @click="show = false">Hide</vue-button>
   </vue-modal>
 </div>
   `,
@@ -36,9 +36,9 @@ story.add(
     },
     template: `
 <div>
-  <vue-button @click="show = true" secondary>Show</vue-button>
+  <vue-button @click="show = true" variant="secondary">Show</vue-button>
   <vue-modal :show="show" @close="show = false" fit-content>
-    <vue-button style="margin: 0;" primary @click="show = false">Hide</vue-button>
+    <vue-button style="margin: 0;" variant="primary" @click="show = false">Hide</vue-button>
   </vue-modal>
 </div>
   `,

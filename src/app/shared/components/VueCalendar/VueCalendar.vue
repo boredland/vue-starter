@@ -95,8 +95,10 @@
     </div>
 
     <div :class="$style.footer">
-      <vue-button @click.stop.prevent="onClose" primary ghost>{{ $t('common.cancel' /* Cancel */) }}</vue-button>
-      <vue-button @click.stop.prevent="onChange" secondary>{{ $t('common.ok' /* Ok */) }}</vue-button>
+      <vue-button @click.stop.prevent="onClose" variant="primary" ghost>{{
+        $t('common.cancel' /* Cancel */)
+      }}</vue-button>
+      <vue-button @click.stop.prevent="onChange" variant="secondary">{{ $t('common.ok' /* Ok */) }}</vue-button>
     </div>
   </div>
 </template>

@@ -50,7 +50,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        primary: true,
+        variant: 'primary',
       },
     });
 
@@ -61,7 +61,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        secondary: true,
+        variant: 'secondary',
       },
     });
 
@@ -72,7 +72,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        tertiary: true,
+        variant: 'tertiary',
       },
     });
 
@@ -83,7 +83,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        danger: true,
+        variant: 'danger',
       },
     });
 
@@ -94,7 +94,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        warning: true,
+        variant: 'warning',
       },
     });
 
@@ -105,7 +105,7 @@ describe('VueButton.vue', () => {
     const wrapper = mount<any>(VueButton, {
       localVue,
       propsData: {
-        success: true,
+        variant: 'success',
       },
     });
 

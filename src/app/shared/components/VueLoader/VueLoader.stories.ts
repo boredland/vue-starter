@@ -9,34 +9,34 @@ story.add(
   withInfo({})(() => ({
     components: { VueLoader },
     template: `<div>
-<vue-loader primary />
-<vue-loader primary medium />
-<vue-loader primary large />
+<vue-loader variant="primary" />
+<vue-loader variant="primary" medium />
+<vue-loader variant="primary" large />
 <br />
 <br />
-<vue-loader secondary />
-<vue-loader secondary medium />
-<vue-loader secondary large />
+<vue-loader variant="secondary" />
+<vue-loader variant="secondary" medium />
+<vue-loader variant="secondary" large />
 <br />
 <br />
-<vue-loader tertiary />
-<vue-loader tertiary medium />
-<vue-loader tertiary large />
+<vue-loader variant="tertiary" />
+<vue-loader variant="tertiary" medium />
+<vue-loader variant="tertiary" large />
 <br />
 <br />
-<vue-loader danger />
-<vue-loader danger medium />
-<vue-loader danger large />
+<vue-loader variant="danger" />
+<vue-loader variant="danger" medium />
+<vue-loader variant="danger" large />
 <br />
 <br />
-<vue-loader warning />
-<vue-loader warning medium />
-<vue-loader warning large />
+<vue-loader variant="warning" />
+<vue-loader variant="warning" medium />
+<vue-loader variant="warning" large />
 <br />
 <br />
-<vue-loader success />
-<vue-loader success medium />
-<vue-loader success large />
+<vue-loader variant="success" />
+<vue-loader variant="success" medium />
+<vue-loader variant="success" large />
 </div>`,
   })),
 );

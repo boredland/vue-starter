@@ -19,7 +19,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        primary: true,
+        variant: 'primary',
       },
     });
 
@@ -30,7 +30,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        secondary: true,
+        variant: 'secondary',
       },
     });
 
@@ -41,7 +41,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        tertiary: true,
+        variant: 'tertiary',
       },
     });
 
@@ -52,7 +52,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        danger: true,
+        variant: 'danger',
       },
     });
 
@@ -63,7 +63,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        warning: true,
+        variant: 'warning',
       },
     });
 
@@ -74,7 +74,7 @@ describe('VueBadge.vue', () => {
     const wrapper = mount(VueBadge, {
       localVue,
       propsData: {
-        success: true,
+        variant: 'success',
       },
     });
 
