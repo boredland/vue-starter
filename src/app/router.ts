@@ -33,7 +33,7 @@ export const router: VueRouter = new VueRouter(
 router.beforeEach((to: Route, from: Route, next: any) => {
   if (to.matched.some((record: RouteRecord) => record.meta.requiresAuth)) {
     // this route requires auth, check if logged in if not, redirect to login page.
-    const isAuthenticated = false; // TODO implement real auth check
+    const isAuthenticated = true; // TODO implement real auth check
     if (!isAuthenticated) {
       next({ path: '/login', query: { redirect: to.fullPath } });
     } else {

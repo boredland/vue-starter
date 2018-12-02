@@ -22,7 +22,7 @@ export const AppRoutes: RouteConfig[] = [
   // will redirect to `/login` (implemented in `src/app/router`)
   // TODO: remove from production code
   {
-    path:      '/requires-auth',
+    path:      '/counter',
     meta:      { requiresAuth: true },
   },
 
